@@ -1,4 +1,10 @@
 
+body{
+  width: 650px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
 /* Header della pagina */
 header{
   background-color: rgb(78, 160, 255);
@@ -9,9 +15,16 @@ header{
 }
 
 .logo{
-  width: 120px;
-  height: 45px;
-  background-position-y: bottom;
+  width: 20%;
+  height: 10%;
+  position: relative;
+  
+}
+
+.logo img{
+  position: absolute;
+  top: 30px;
+  left: 0px;
 }
 
 
@@ -24,3 +37,10 @@ header{
   color: rgb(76, 185, 233);
 }
 
+.didascalia{
+  font-size: 12px;
+}
+
+.diapositive{
+  height: 230px;
+}
