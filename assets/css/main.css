@@ -1,0 +1,26 @@
+
+/* Header della pagina */
+header{
+  background-color: rgb(78, 160, 255);
+  height: 60px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  background-size: 15%;
+}
+
+.logo{
+  width: 120px;
+  height: 45px;
+  background-position-y: bottom;
+}
+
+
+
+.riferimento{
+  color: rgb(125, 125, 125);
+}
+
+.nome{
+  color: rgb(76, 185, 233);
+}
+
