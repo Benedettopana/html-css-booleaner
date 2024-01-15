@@ -1,6 +1,6 @@
 
 body{
-  width: 650px;
+  width: 850px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
 }
@@ -8,7 +8,7 @@ body{
 /* Header della pagina */
 header{
   background-color: rgb(78, 160, 255);
-  height: 60px;
+  height: 70px;
   background-image: url(../img/pattern.png);
   background-size: contain;
   background-size: 15%;
@@ -43,4 +43,36 @@ header{
 
 .diapositive{
   height: 230px;
+}
+
+.evidenziato{
+  background-color: yellow;
+}
+
+
+/* .testatabella{
+  
+  color: white;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  width: 120px;
+}
+
+.testa{
+  background-color: rgb(32, 169, 229);
+  color: white;
+  font-size: 12px;
+  height: 14px;
+}
+
+.riga{
+  background-color: rgb(177, 229, 242);
+
 }
